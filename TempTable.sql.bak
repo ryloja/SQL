@@ -1,0 +1,9 @@
+WITH trip_over_1_hr AS (
+  SELECT *
+  FROM
+    bigquery-public-data.new_york.citibike_trips
+  WHERE
+    tripduration >= 60
+	
+	)
+	
